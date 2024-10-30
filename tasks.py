@@ -1,6 +1,6 @@
 from crewai import Task
 from tools import scrape_tool,search_tool
-from agents import industry_research_agent,solution_recommender_agent,market_standards_analysis_agent, use_case_generation_agent,resource_asset_collection_agent
+from agents import industry_research_agent,market_standards_analysis_agent, use_case_generation_agent,resource_asset_collection_agent
 
 # TASK 1: INDUSTRY RESEARCH
 
@@ -33,12 +33,12 @@ market_analysis = Task(
         "3. Summarize findings on AI/ML applications within the industry, particularly "
             "for operational efficiency and customer satisfaction.\n"
         "4. Highlight any key areas where AI/ML can offer a competitive advantage.\n"
+        "5. The name of the industry or Company is: {Company_name}"
     ),
     expected_output="A concise analysis in markdown format outlining "
         "industry standards, trends, and AI/ML applications in the company's sector.",
     agent=market_standards_analysis_agent,
-    output_file="market_analysis.md",
-    context=[industry_research],
+    output_file="market_analysis.md"
 )
 
 # TASK 3: USE CASE GENERATION 
@@ -51,6 +51,7 @@ use_case_generation = Task(
             "and optimizing processes.\n"
         "3. Align use cases with industry trends and the company’s goals.\n"
         "4. Provide a brief description for each use case, specifying potential impact.\n"
+        "5. The name of the industry or Company is: {Company_name}"
     ),
     expected_output="A list of actionable AI/GenAI use cases in markdown format, "
         "each with a brief description and potential impact on the company.",
@@ -79,18 +80,18 @@ resource_asset_collection = Task(
 
 # TASK 5: SOLUTION RECOMMENDATION
 
-solution_recommendation = Task(
-    description=(
-        "1. Based on the generated use cases, suggest specific GenAI solutions "
-            "such as document search, automated report generation, or AI chat systems.\n"
-        "2. Provide examples where these solutions can improve internal processes "
-            "or enhance customer engagement.\n"
-        "3. Explain the potential impact of each recommendation and its alignment "
-            "with the company’s goals.\n"
-    ),
-    expected_output="A list of GenAI solution recommendations in markdown format, "
-        "with a brief description of each solution’s impact and relevance.",
-    agent=solution_recommender_agent,
-    context=[industry_research,market_analysis,use_case_generation],
-    output_file="solution_recommendation.md"
-)
+# solution_recommendation = Task(
+#     description=(
+#         "1. Based on the generated use cases, suggest specific GenAI solutions "
+#             "such as document search, automated report generation, or AI chat systems.\n"
+#         "2. Provide examples where these solutions can improve internal processes "
+#             "or enhance customer engagement.\n"
+#         "3. Explain the potential impact of each recommendation and its alignment "
+#             "with the company’s goals.\n"
+#     ),
+#     expected_output="A list of GenAI solution recommendations in markdown format, "
+#         "with a brief description of each solution’s impact and relevance.",
+#     agent=solution_recommender_agent,
+#     context=[industry_research,market_analysis,use_case_generation],
+#     output_file="solution_recommendation.md"
+# )

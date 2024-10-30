@@ -1,143 +1,100 @@
-## AI/GenAI Use Cases for Deloitte
+## Relevant Datasets for AI/ML Use Cases:
 
-**1. AI-Powered Audit Assistant:**
+**1. AI-Powered Customer Service & Support:**
 
-* **Datasets:**
-    * **Financial Statement Fraud Data** - Kaggle: [https://www.kaggle.com/datasets/amitkedia/financial-statement-fraud-data](https://www.kaggle.com/datasets/amitkedia/financial-statement-fraud-data)
-    * **Financial Statement Extracts** - Kaggle: [https://www.kaggle.com/datasets/securities-exchange-commission/financial-statement-extracts](https://www.kaggle.com/datasets/securities-exchange-commission/financial-statement-extracts)
-    * **Financial Documents Clustering** - Kaggle: [https://www.kaggle.com/datasets/drcrabkg/financial-statements-clustering](https://www.kaggle.com/datasets/drcrabkg/financial-statements-clustering)
+* **Dataset:** Bitext Gen AI Chatbot Customer Support Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/bitext/bitext-gen-ai-chatbot-customer-support-dataset
+    * **Description:** This dataset provides a collection of customer support conversations, including both customer queries and agent responses. It can be used to train and evaluate AI-powered chatbots for customer service.
+* **Dataset:** Training Dataset for chatbots/Virtual Assistants (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/bitext/training-dataset-for-chatbotsvirtual-assistants
+    * **Description:** This dataset is specifically designed for training customer service chatbots. It includes a variety of conversations and responses that can be used to improve chatbot performance.
+* **Article:**  "Building a Customer Service Chatbot with AI" - This article provides a comprehensive overview of building AI-powered chatbots for customer service.
+    * **Link:** https://www.ibm.com/cloud/learn/chatbot
 
-* **Models:**
-    * **BERT** - HuggingFace: [https://huggingface.co/bert-base-uncased](https://huggingface.co/bert-base-uncased)
-    * **LSTM** - GitHub: [https://github.com/fchollet/keras/blob/master/examples/imdb_lstm.py](https://github.com/fchollet/keras/blob/master/examples/imdb_lstm.py)
+**2. Intelligent Automation for Business Processes:**
 
-* **Resources:**
-    * **Auditing and AI: A Guide for Auditors** - AICPA: [https://www.aicpa.org/resources/technology/artificial-intelligence/auditing-and-ai-a-guide-for-auditors](https://www.aicpa.org/resources/technology/artificial-intelligence/auditing-and-ai-a-guide-for-auditors)
-    * **AI in Auditing: A Practical Guide** - Deloitte: [https://www2.deloitte.com/us/en/pages/audit/articles/ai-in-auditing-a-practical-guide.html](https://www2.deloitte.com/us/en/pages/audit/articles/ai-in-auditing-a-practical-guide.html)
+* **Dataset:** Invoice Processing Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/arjunprasad/invoice-dataset
+    * **Description:** This dataset contains a collection of invoices that can be used to train and evaluate AI models for automated invoice processing.
+* **Dataset:** Order Fulfillment Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/arjunprasad/order-fulfillment-dataset
+    * **Description:** This dataset includes data related to order fulfillment processes, such as order details, shipping information, and delivery times. It can be used to develop AI models for automating order fulfillment tasks.
+* **Article:** "The Future of Work: How AI is Transforming Business Processes" - This article explores the impact of AI on business processes, including automation and optimization.
+    * **Link:** https://www.mckinsey.com/business-functions/operations/our-insights/the-future-of-work-how-ai-is-transforming-business-processes
 
-**2. Personalized Client Portal:**
+**3. Predictive Analytics for Business Insights:**
 
-* **Datasets:**
-    * **Customer Segmentation Dataset** - Kaggle: [https://www.kaggle.com/datasets/imakash3011/customer-segmentation-dataset](https://www.kaggle.com/datasets/imakash3011/customer-segmentation-dataset)
-    * **Customer Churn Prediction Dataset** - Kaggle: [https://www.kaggle.com/datasets/blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+* **Dataset:** Telco Customer Churn Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+    * **Description:** This dataset contains information about customer churn in a telecommunications company. It can be used to build predictive models to identify customers at risk of churn and develop strategies to retain them.
+* **Dataset:** Retail Sales Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/kyakovlev/retail-sales-data
+    * **Description:** This dataset includes data on retail sales transactions, such as product details, customer information, and purchase history. It can be used to analyze customer behavior, forecast sales trends, and optimize inventory management.
+* **Article:** "Predictive Analytics: A Guide for Business Leaders" - This article provides an introduction to predictive analytics and its applications in business.
+    * **Link:** https://www.sas.com/en_us/insights/analytics/predictive-analytics.html
 
-* **Models:**
-    * **ChatGPT** - OpenAI: [https://openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)
-    * **Decision Tree** - Scikit-learn: [https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+**4. AI-Driven Software Development & Testing:**
 
-* **Resources:**
-    * **Building a Personalized Client Portal with AI** - Forbes: [https://www.forbes.com/sites/bernardmarr/2020/06/29/building-a-personalized-client-portal-with-ai/?sh=4506333d1710](https://www.forbes.com/sites/bernardmarr/2020/06/29/building-a-personalized-client-portal-with-ai/?sh=4506333d1710)
-    * **The Future of Client Portals: AI and Personalization** - Accenture: [https://www.accenture.com/us-en/insights/technology/client-portals-ai-personalization](https://www.accenture.com/us-en/insights/technology/client-portals-ai-personalization)
+* **Dataset:** GitHub Archive (GitHub)
+    * **Link:** https://archive.org/details/github
+    * **Description:** This dataset contains a massive archive of GitHub repositories, including code, documentation, and issue tracking information. It can be used to train AI models for code generation, testing, and debugging.
+* **Dataset:** OpenStack Codebase (GitHub)
+    * **Link:** https://github.com/openstack
+    * **Description:** This dataset contains the source code for OpenStack, a cloud computing platform. It can be used to train AI models for code analysis and vulnerability detection.
+* **Article:** "AI in Software Development: The Future of Coding" - This article explores the role of AI in software development, including code generation, testing, and debugging.
+    * **Link:** https://www.infoworld.com/article/3624871/ai-in-software-development-the-future-of-coding.html
 
-**3. Predictive Modeling for Financial Forecasting:**
+**5. GenAI for Content Creation and Personalization:**
 
-* **Datasets:**
-    * **Financial Data** - Kaggle: [https://www.kaggle.com/datasets/adhoppin/financial-data](https://www.kaggle.com/datasets/adhoppin/financial-data)
-    * **Macroeconomic Data** - FRED: [https://fred.stlouisfed.org/](https://fred.stlouisfed.org/)
+* **Dataset:** The Pile (HuggingFace)
+    * **Link:** https://huggingface.co/datasets/the-pile
+    * **Description:** This dataset is a massive collection of text and code from various sources, including books, articles, code repositories, and websites. It can be used to train generative AI models for content creation and personalization.
+* **Dataset:** GPT-3 (OpenAI)
+    * **Link:** https://openai.com/blog/gpt-3/
+    * **Description:** GPT-3 is a powerful language model that can generate realistic and coherent text. It can be used to create a wide range of content, including articles, stories, and even code.
+* **Article:** "Generative AI: The Next Frontier in Content Creation" - This article discusses the potential of generative AI for content creation and personalization.
+    * **Link:** https://www.forbes.com/sites/bernardmarr/2022/08/24/generative-ai-the-next-frontier-in-content-creation/
 
-* **Models:**
-    * **ARIMA** - Statsmodels: [https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html)
-    * **LSTM** - TensorFlow: [https://www.tensorflow.org/tutorials/structured_data/time_series](https://www.tensorflow.org/tutorials/structured_data/time_series)
+**6. AI-Powered Talent Management & Recruitment:**
 
-* **Resources:**
-    * **Predictive Analytics in Finance: A Comprehensive Guide** - Investopedia: [https://www.investopedia.com/terms/p/predictive-analytics.asp](https://www.investopedia.com/terms/p/predictive-analytics.asp)
-    * **Financial Forecasting with Machine Learning** - Towards Data Science: [https://towardsdatascience.com/financial-forecasting-with-machine-learning-13578e366813](https://towardsdatascience.com/financial-forecasting-with-machine-learning-13578e366813)
+* **Dataset:** Stack Overflow Developer Survey (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/stackoverflow/stack-overflow-developer-survey-2022
+    * **Description:** This dataset contains information about developers, including their skills, experience, and career aspirations. It can be used to train AI models for talent recruitment and development.
+* **Dataset:** LinkedIn Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/arjunprasad/linkedin-dataset
+    * **Description:** This dataset includes data about LinkedIn users, such as their profiles, connections, and job history. It can be used to analyze talent trends and identify potential candidates for recruitment.
+* **Article:** "AI in HR: Transforming Talent Management and Recruitment" - This article explores the role of AI in talent management and recruitment, including automated screening, candidate matching, and performance analysis.
+    * **Link:** https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-hr.aspx
 
-**4. AI-Powered Legal Research:**
+**7. AI-Enabled Cybersecurity:**
 
-* **Datasets:**
-    * **Legal Case Summaries** - GitHub: [https://github.com/allenai/legal-case-summaries](https://github.com/allenai/legal-case-summaries)
-    * **Legal Documents Dataset** - Kaggle: [https://www.kaggle.com/datasets/the-legal-ai-society/legal-documents-dataset](https://www.kaggle.com/datasets/the-legal-ai-society/legal-documents-dataset)
+* **Dataset:** CICIDS 2017 (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/ucalyptus/intrusion-detection-dataset
+    * **Description:** This dataset contains network traffic data that includes both normal and malicious activities. It can be used to train AI models for intrusion detection and prevention.
+* **Dataset:** ISCXIDS 2012 (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/ucalyptus/iscxids-2012
+    * **Description:** This dataset includes network traffic data from a university network, including both normal and malicious activities. It can be used to train AI models for network security analysis.
+* **Article:** "AI in Cybersecurity: The Future of Threat Detection and Response" - This article discusses the role of AI in cybersecurity, including threat detection, incident response, and vulnerability management.
+    * **Link:** https://www.wired.com/story/ai-cybersecurity-future-threat-detection-response/
 
-* **Models:**
-    * **GPT-3** - OpenAI: [https://openai.com/blog/gpt-3](https://openai.com/blog/gpt-3)
-    * **LegalBERT** - HuggingFace: [https://huggingface.co/nlpaueb/legal-bert-base-uncased](https://huggingface.co/nlpaueb/legal-bert-base-uncased)
+**8. AI-Driven Sustainability Initiatives:**
 
-* **Resources:**
-    * **AI and the Future of Legal Research** - Harvard Law School: [https://www.law.harvard.edu/programs/future-of-legal-research/](https://www.law.harvard.edu/programs/future-of-legal-research/)
-    * **AI-Powered Legal Research: A Primer** - Lex Machina: [https://www.lexmachina.com/blog/ai-powered-legal-research-a-primer/](https://www.lexmachina.com/blog/ai-powered-legal-research-a-primer/)
+* **Dataset:** Global Power Plant Database (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/imdevskp/global-power-plant-database
+    * **Description:** This dataset contains information about power plants worldwide, including their location, capacity, and fuel type. It can be used to analyze energy consumption patterns and develop AI models for optimizing energy efficiency.
+* **Dataset:** Climate Change Dataset (Kaggle)
+    * **Link:** https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
+    * **Description:** This dataset includes data related to climate change, such as temperature, precipitation, and sea level. It can be used to train AI models for climate change prediction and mitigation.
+* **Article:** "AI for Sustainability: How Technology Can Help Save the Planet" - This article explores the potential of AI for addressing sustainability challenges, including energy efficiency, resource management, and climate change mitigation.
+    * **Link:** https://www.weforum.org/agenda/2021/01/ai-sustainability-technology-save-planet/
 
-**5. AI-Powered Talent Acquisition:**
+**9. TCS AI WisdomNext:**
 
-* **Datasets:**
-    * **Resume Dataset** - Kaggle: [https://www.kaggle.com/datasets/shivamb/resume-dataset](https://www.kaggle.com/datasets/shivamb/resume-dataset)
-    * **Job Description Dataset** - GitHub: [https://github.com/deepanshut04/Job-Description-Dataset](https://github.com/deepanshut04/Job-Description-Dataset)
-
-* **Models:**
-    * **GPT-3** - OpenAI: [https://openai.com/blog/gpt-3](https://openai.com/blog/gpt-3)
-    * **RecruiterBERT** - HuggingFace: [https://huggingface.co/google/recruiter-bert](https://huggingface.co/google/recruiter-bert)
-
-* **Resources:**
-    * **AI in Talent Acquisition: A Guide for Recruiters** - SHRM: [https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-talent-acquisition.aspx](https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-talent-acquisition.aspx)
-    * **The Future of Talent Acquisition: AI and Automation** - Gartner: [https://www.gartner.com/en/newsroom/press-releases/2023-02-28-gartner-predicts-by-2025-75-percent-of-organizations-will-use-ai-for-talent-acquisition](https://www.gartner.com/en/newsroom/press-releases/2023-02-28-gartner-predicts-by-2025-75-percent-of-organizations-will-use-ai-for-talent-acquisition)
-
-**6. AI-Powered Content Creation:**
-
-* **Datasets:**
-    * **Text Summarization Dataset** - HuggingFace: [https://huggingface.co/datasets/cnn_dailymail](https://huggingface.co/datasets/cnn_dailymail)
-    * **Creative Writing Dataset** - Kaggle: [https://www.kaggle.com/datasets/catherinelennon/creative-writing-dataset](https://www.kaggle.com/datasets/catherinelennon/creative-writing-dataset)
-
-* **Models:**
-    * **ChatGPT** - OpenAI: [https://openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)
-    * **BART** - HuggingFace: [https://huggingface.co/facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)
-
-* **Resources:**
-    * **AI Content Creation: The Future of Marketing** - HubSpot: [https://blog.hubspot.com/marketing/ai-content-creation](https://blog.hubspot.com/marketing/ai-content-creation)
-    * **The Rise of AI-Powered Content Creation** - Forbes: [https://www.forbes.com/sites/bernardmarr/2022/09/12/the-rise-of-ai-powered-content-creation/?sh=4d2e95081710](https://www.forbes.com/sites/bernardmarr/2022/09/12/the-rise-of-ai-powered-content-creation/?sh=4d2e95081710)
-
-**7. AI-Powered Risk Management:**
-
-* **Datasets:**
-    * **Fraud Detection Dataset** - Kaggle: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-    * **Cybersecurity Dataset** - GitHub: [https://github.com/jindongwang/transferlearning-resources](https://github.com/jindongwang/transferlearning-resources)
-
-* **Models:**
-    * **Random Forest** - Scikit-learn: [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-    * **Deep Neural Networks** - TensorFlow: [https://www.tensorflow.org/tutorials/structured_data/imbalanced_data](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data)
-
-* **Resources:**
-    * **AI in Risk Management: A Guide for Financial Institutions** - McKinsey: [https://www.mckinsey.com/industries/financial-services/our-insights/ai-in-risk-management-a-guide-for-financial-institutions](https://www.mckinsey.com/industries/financial-services/our-insights/ai-in-risk-management-a-guide-for-financial-institutions)
-    * **The Future of Risk Management: AI and Automation** - Deloitte: [https://www2.deloitte.com/us/en/pages/risk/articles/the-future-of-risk-management-ai-and-automation.html](https://www2.deloitte.com/us/en/pages/risk/articles/the-future-of-risk-management-ai-and-automation.html)
-
-**8. AI-Powered Sustainability Solutions:**
-
-* **Datasets:**
-    * **Energy Consumption Dataset** - Kaggle: [https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set](https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set)
-    * **Emissions Data** - EPA: [https://www.epa.gov/air-emissions-data-and-tools](https://www.epa.gov/air-emissions-data-and-tools)
-
-* **Models:**
-    * **Regression Models** - Scikit-learn: [https://scikit-learn.org/stable/modules/linear_model.html](https://scikit-learn.org/stable/modules/linear_model.html)
-    * **Deep Reinforcement Learning** - TensorFlow: [https://www.tensorflow.org/agents](https://www.tensorflow.org/agents)
-
-* **Resources:**
-    * **AI for Sustainability: A Guide for Businesses** - World Economic Forum: [https://www.weforum.org/agenda/2021/04/artificial-intelligence-ai-sustainability-guide-businesses/](https://www.weforum.org/agenda/2021/04/artificial-intelligence-ai-sustainability-guide-businesses/)
-    * **The Future of Sustainability: AI and Innovation** - Accenture: [https://www.accenture.com/us-en/insights/technology/sustainability-ai-innovation](https://www.accenture.com/us-en/insights/technology/sustainability-ai-innovation)
-
-**9. AI-Powered Cybersecurity Solutions:**
-
-* **Datasets:**
-    * **Network Intrusion Detection Dataset** - Kaggle: [https://www.kaggle.com/datasets/uciml/intrusion-detection-dataset](https://www.kaggle.com/datasets/uciml/intrusion-detection-dataset)
-    * **Malware Dataset** - GitHub: [https://github.com/jindongwang/transferlearning-resources](https://github.com/jindongwang/transferlearning-resources)
-
-* **Models:**
-    * **Support Vector Machines (SVM)** - Scikit-learn: [https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
-    * **Deep Learning Models** - TensorFlow: [https://www.tensorflow.org/tutorials/images/cnn](https://www.tensorflow.org/tutorials/images/cnn)
-
-* **Resources:**
-    * **AI in Cybersecurity: A Guide for Businesses** - Cybersecurity & Infrastructure Security Agency (CISA): [https://www.cisa.gov/artificial-intelligence-cybersecurity](https://www.cisa.gov/artificial-intelligence-cybersecurity)
-    * **The Future of Cybersecurity: AI and Automation** - Gartner: [https://www.gartner.com/en/newsroom/press-releases/2022-07-12-gartner-predicts-by-2025-75-percent-of-organizations-will-use-ai-for-security](https://www.gartner.com/en/newsroom/press-releases/2022-07-12-gartner-predicts-by-2025-75-percent-of-organizations-will-use-ai-for-security)
-
-**10. AI-Powered Customer Service:**
-
-* **Datasets:**
-    * **Customer Service Dialogue Dataset** - HuggingFace: [https://huggingface.co/datasets/customer-service-dialogue](https://huggingface.co/datasets/customer-service-dialogue)
-    * **Sentiment Analysis Dataset** - Kaggle: [https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
-
-* **Models:**
-    * **ChatGPT** - OpenAI: [https://openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)
-    * **Dialogflow** - Google Cloud: [https://cloud.google.com/dialogflow](https://cloud.google.com/dialogflow)
-
-* **Resources:**
-    * **AI in Customer Service: A Guide for Businesses** - Zendesk: [https://www.zendesk.com/blog/ai-customer-service/](https://www.zendesk.com/blog/ai-customer-service/)
-    * **The Future of Customer Service: AI and Automation** - Salesforce: [https://www.salesforce.com/solutions/industries/customer-service/](https://www.salesforce.com/solutions/industries/customer-service/) 
-://www.salesforce.com/solutions/industries/customer-service/](https://www.salesforce.com/solutions/industries/customer-service/)
+* **Dataset:** TCS AI WisdomNext Platform Documentation (TCS)
+    * **Link:** https://www.tcs.com/ai-wisdomnext
+    * **Description:** This documentation provides information about TCS's AI WisdomNext platform, including its capabilities, features, and use cases. It can be used to understand the platform's potential for GenAI adoption.
+* **Dataset:** TCS AI WisdomNext Case Studies (TCS)
+    * **Link:** https://www.tcs.com/ai-wisdomnext/case-studies
+    * **Description:** TCS provides case studies showcasing the successful implementation of AI WisdomNext for various clients. These case studies can provide insights into the platform's capabilities and impact.
+* **Article:** "TCS AI WisdomNext: Simplifying GenAI Adoption for Businesses" - This article discusses TCS's AI WisdomNext platform and its role in accelerating GenAI adoption for clients.
+    * **Link:** https://www.tcs.com/blogs/ai-wisdomnext-simplifying-genai-adoption-for-businesses
