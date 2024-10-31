@@ -51,7 +51,6 @@ use_case_generation = Task(
             "and optimizing processes.\n"
         "3. Align use cases with industry trends and the company’s goals.\n"
         "4. Provide a brief description for each use case, specifying potential impact.\n"
-        "5. The name of the industry or Company is: {Company_name}"
     ),
     expected_output="A list of actionable AI/GenAI use cases in markdown format, "
         "each with a brief description and potential impact on the company.",
@@ -82,7 +81,7 @@ resource_asset_collection = Task(
 
 solution_recommendation = Task(
     description=(
-        "1. Based on the generated use cases, suggest specific GenAI solutions "
+        "1. Based on the generated use cases and resources suggest specific GenAI solutions "
             "such as document search, automated report generation, or AI chat systems.\n"
         "2. Provide examples where these solutions can improve internal processes "
             "or enhance customer engagement.\n"
@@ -92,6 +91,6 @@ solution_recommendation = Task(
     expected_output="A list of GenAI solution recommendations in markdown format, "
         "with a brief description of each solution’s impact and relevance.",
     agent=solution_recommender_agent,
-    context=[industry_research,market_analysis,use_case_generation],
+    context=[use_case_generation,resource_asset_collection],
     output_file="solution_recommendation.md"
 )

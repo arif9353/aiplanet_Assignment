@@ -103,7 +103,7 @@ solution_recommender_agent = Agent(
     role="GenAI Solution Recommender",
     goal="Recommend GenAI solutions such as document search, automated report generation, "
          "and AI-powered chat systems for internal or customer-facing purposes.",
-    backstory=("Based on the use cases and research findings, your role is to suggest practical "
+    backstory=("Based on the use cases, resources and research findings, your role is to suggest practical "
               "GenAI solutions that could optimize internal processes or improve customer interactions. "
               "These suggestions could include automated report generation, AI chatbots, or other applications."),
     allow_delegation=False,
