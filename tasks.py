@@ -1,6 +1,6 @@
 from crewai import Task
 from tools import scrape_tool,search_tool
-from agents import industry_research_agent,market_standards_analysis_agent, use_case_generation_agent,resource_asset_collection_agent
+from agents import industry_research_agent,market_standards_analysis_agent, use_case_generation_agent,resource_asset_collection_agent, solution_recommender_agent
 
 # TASK 1: INDUSTRY RESEARCH
 
@@ -80,18 +80,18 @@ resource_asset_collection = Task(
 
 # TASK 5: SOLUTION RECOMMENDATION
 
-# solution_recommendation = Task(
-#     description=(
-#         "1. Based on the generated use cases, suggest specific GenAI solutions "
-#             "such as document search, automated report generation, or AI chat systems.\n"
-#         "2. Provide examples where these solutions can improve internal processes "
-#             "or enhance customer engagement.\n"
-#         "3. Explain the potential impact of each recommendation and its alignment "
-#             "with the company’s goals.\n"
-#     ),
-#     expected_output="A list of GenAI solution recommendations in markdown format, "
-#         "with a brief description of each solution’s impact and relevance.",
-#     agent=solution_recommender_agent,
-#     context=[industry_research,market_analysis,use_case_generation],
-#     output_file="solution_recommendation.md"
-# )
+solution_recommendation = Task(
+    description=(
+        "1. Based on the generated use cases, suggest specific GenAI solutions "
+            "such as document search, automated report generation, or AI chat systems.\n"
+        "2. Provide examples where these solutions can improve internal processes "
+            "or enhance customer engagement.\n"
+        "3. Explain the potential impact of each recommendation and its alignment "
+            "with the company’s goals.\n"
+    ),
+    expected_output="A list of GenAI solution recommendations in markdown format, "
+        "with a brief description of each solution’s impact and relevance.",
+    agent=solution_recommender_agent,
+    context=[industry_research,market_analysis,use_case_generation],
+    output_file="solution_recommendation.md"
+)

@@ -33,8 +33,9 @@ industry_research_agent  = Agent(
               "the competitive landscape, which will aid in identifying AI and GenAI opportunities."
     ),
     llm=llm,
-    memory=True,
-    max_iter=20
+    max_iter=10,
+    max_rpm = 15,
+    max_retry_limit=4
 
 )
 
@@ -55,8 +56,9 @@ market_standards_analysis_agent = Agent(
               "operational efficiency and customer satisfaction."
     ),
     llm=llm,
-    memory=True,
-    max_iter=15
+    max_iter=10,
+    max_rpm = 15,
+    max_retry_limit=4
 )
 
 #AGENT NUMBER 3: USE CASE GENERATION AGENT
@@ -72,9 +74,9 @@ use_case_generation_agent  = Agent(
               "focus on leveraging GenAI, LLMs, and ML to streamline processes and improve customer engagement."
     ),
     llm=llm,
-    memory=True,
-    max_iter=8
-
+    max_iter=10,
+    max_rpm = 15,
+    max_retry_limit=4
 )
 
 #AGENT NUMBER 4: RESOURCE COLLECTION AGENT
@@ -90,23 +92,24 @@ resource_asset_collection_agent  = Agent(
               "You ensure that each dataset link is easily accessible and can be used "
               "to train or validate AI/ML models related to the proposed use cases."),
     llm=llm,
-    memory=True,
-    max_iter=15
-
+    max_iter=10,
+    max_rpm = 15,
+    max_retry_limit=4
 )
 
 # AGENT NUMBER 5: SOLUTION RECOMMENDER AGENT
 
-# solution_recommender_agent = Agent(
-#     role="GenAI Solution Recommender",
-#     goal="Recommend GenAI solutions such as document search, automated report generation, "
-#          "and AI-powered chat systems for internal or customer-facing purposes.",
-#     backstory=("Based on the use cases and research findings, your role is to suggest practical "
-#               "GenAI solutions that could optimize internal processes or improve customer interactions. "
-#               "These suggestions could include automated report generation, AI chatbots, or other applications."),
-#     allow_delegation=False,
-#     verbose=True,
-#     llm=llm,
-#     memory=True,
-#     max_iter=15
-# )
+solution_recommender_agent = Agent(
+    role="GenAI Solution Recommender",
+    goal="Recommend GenAI solutions such as document search, automated report generation, "
+         "and AI-powered chat systems for internal or customer-facing purposes.",
+    backstory=("Based on the use cases and research findings, your role is to suggest practical "
+              "GenAI solutions that could optimize internal processes or improve customer interactions. "
+              "These suggestions could include automated report generation, AI chatbots, or other applications."),
+    allow_delegation=False,
+    verbose=True,
+    llm=llm,
+    max_iter=10,
+    max_rpm = 15,
+    max_retry_limit=4
+)

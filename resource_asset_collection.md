@@ -1,100 +1,68 @@
-## Relevant Datasets for AI/ML Use Cases:
+## AI/GenAI Use Cases for Cisco Resources:
 
-**1. AI-Powered Customer Service & Support:**
+**1. AI-Powered Network Optimization and Predictive Maintenance:**
 
-* **Dataset:** Bitext Gen AI Chatbot Customer Support Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/bitext/bitext-gen-ai-chatbot-customer-support-dataset
-    * **Description:** This dataset provides a collection of customer support conversations, including both customer queries and agent responses. It can be used to train and evaluate AI-powered chatbots for customer service.
-* **Dataset:** Training Dataset for chatbots/Virtual Assistants (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/bitext/training-dataset-for-chatbotsvirtual-assistants
-    * **Description:** This dataset is specifically designed for training customer service chatbots. It includes a variety of conversations and responses that can be used to improve chatbot performance.
-* **Article:**  "Building a Customer Service Chatbot with AI" - This article provides a comprehensive overview of building AI-powered chatbots for customer service.
-    * **Link:** https://www.ibm.com/cloud/learn/chatbot
+* **Datasets:**
+    * **Network Performance Prediction:** [https://www.kaggle.com/code/muhdhazim/network-performance-prediction](https://www.kaggle.com/code/muhdhazim/network-performance-prediction) - This Kaggle notebook provides a starting point for predicting network performance.
+    * **Cellular Network Performance Data:** [https://www.kaggle.com/datasets/suraj520/cellular-network-performance-data](https://www.kaggle.com/datasets/suraj520/cellular-network-performance-data) - A comprehensive dataset of cellular network performance metrics.
+    * **Internet Speed Dataset:** [https://www.kaggle.com/datasets/dhruvildave/ookla-internet-speed-dataset](https://www.kaggle.com/datasets/dhruvildave/ookla-internet-speed-dataset) - This dataset provides global fixed broadband and mobile network performance metrics.
+    * **Network Traffic Dataset:** [https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset) -  This dataset can be used for analyzing network traffic and designing applications.
+    * **5G Resource Allocation Dataset:** [https://www.kaggle.com/datasets/omarsobhy14/5g-quality-of-service](https://www.kaggle.com/datasets/omarsobhy14/5g-quality-of-service) -  This dataset focuses on optimizing 5G network performance.
+    * **Real-world networking datasets:** [https://gist.github.com/stefanbschneider/96602bb3c8b256b90058d59f337a0e59](https://gist.github.com/stefanbschneider/96602bb3c8b256b90058d59f337a0e59) -  A GitHub Gist with a list of real-world networking datasets.
+* **Models:**
+    * **Time Series Forecasting Models:** Explore models like ARIMA, LSTM, or Prophet for predicting network performance based on historical data.
+    * **Network Anomaly Detection Models:** Consider using Autoencoders or Isolation Forests to identify unusual network behavior.
+* **Resources:**
+    * **Cisco DevNet:** [https://developer.cisco.com/](https://developer.cisco.com/) - Cisco's developer portal provides resources and documentation for network optimization and management.
+    * **Network Performance Optimization Techniques:** Search for articles and white papers on network optimization techniques like traffic shaping, QoS, and bandwidth management.
 
-**2. Intelligent Automation for Business Processes:**
+**2. AI-Powered Threat Detection and Response:**
 
-* **Dataset:** Invoice Processing Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/arjunprasad/invoice-dataset
-    * **Description:** This dataset contains a collection of invoices that can be used to train and evaluate AI models for automated invoice processing.
-* **Dataset:** Order Fulfillment Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/arjunprasad/order-fulfillment-dataset
-    * **Description:** This dataset includes data related to order fulfillment processes, such as order details, shipping information, and delivery times. It can be used to develop AI models for automating order fulfillment tasks.
-* **Article:** "The Future of Work: How AI is Transforming Business Processes" - This article explores the impact of AI on business processes, including automation and optimization.
-    * **Link:** https://www.mckinsey.com/business-functions/operations/our-insights/the-future-of-work-how-ai-is-transforming-business-processes
+* **Datasets:**
+    * **Cyber-security Datasets:** [https://www.kaggle.com/general/335189](https://www.kaggle.com/general/335189) - A collection of public datasets of cyberthreats.
+    * **Network Intrusion Detection:** [https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection](https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection) - A dataset simulating intrusions in a military network environment.
+    * **Cyber Security Attacks:** [https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks](https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks) - This dataset helps assess heatmaps, attack signatures, and types.
+    * **BETH Dataset:** [https://www.kaggle.com/datasets/katehighnam/beth-dataset](https://www.kaggle.com/datasets/katehighnam/beth-dataset) - One of the largest cyber security datasets available, containing host activity and attacks.
+    * **UNSW_NB15:** [https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15) - This dataset includes various attack types like Fuzzers, DoS, Exploits, and Worms.
+    * **NETWORK ANAMOLY DETECTION:** [https://www.kaggle.com/datasets/anushonkar/network-anamoly-detection](https://www.kaggle.com/datasets/anushonkar/network-anamoly-detection) -  A dataset focusing on network anomaly detection for security purposes.
+* **Models:**
+    * **Intrusion Detection Systems (IDS):** Explore models like Support Vector Machines (SVM), Random Forests, or Deep Neural Networks for identifying malicious activity.
+    * **Anomaly Detection Models:** Use Autoencoders, Isolation Forests, or One-Class SVM to detect unusual network behavior.
+* **Resources:**
+    * **Cisco Security Intelligence Operations (SIO):** [https://www.cisco.com/c/en/us/products/security/security-intelligence-operations.html](https://www.cisco.com/c/en/us/products/security/security-intelligence-operations.html) - Cisco's Security Intelligence Operations platform provides threat intelligence and response capabilities.
+    * **Security Best Practices:** Research best practices for network security, threat detection, and incident response. 
 
-**3. Predictive Analytics for Business Insights:**
+**3. AI-Powered Security Training and Education:**
 
-* **Dataset:** Telco Customer Churn Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-    * **Description:** This dataset contains information about customer churn in a telecommunications company. It can be used to build predictive models to identify customers at risk of churn and develop strategies to retain them.
-* **Dataset:** Retail Sales Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/kyakovlev/retail-sales-data
-    * **Description:** This dataset includes data on retail sales transactions, such as product details, customer information, and purchase history. It can be used to analyze customer behavior, forecast sales trends, and optimize inventory management.
-* **Article:** "Predictive Analytics: A Guide for Business Leaders" - This article provides an introduction to predictive analytics and its applications in business.
-    * **Link:** https://www.sas.com/en_us/insights/analytics/predictive-analytics.html
+* **Datasets:**
+    * **Cybersecurity Datasets:** (See above) -  These datasets can be used to create simulations and scenarios for security training.
+* **Models:**
+    * **Chatbots:** Use conversational AI models like GPT-3 to create interactive security training modules.
+    * **Virtual Reality (VR) and Augmented Reality (AR):** Explore VR/AR technologies to create immersive security training experiences.
+* **Resources:**
+    * **Cisco Networking Academy:** [https://www.netacad.com/](https://www.netacad.com/) - Cisco's Networking Academy offers online courses and resources for cybersecurity training.
+    * **Security Awareness Training Materials:** Search for online resources and materials on security awareness training, phishing prevention, and best practices.
 
-**4. AI-Driven Software Development & Testing:**
+**4. AI-Powered Meeting Assistants:**
 
-* **Dataset:** GitHub Archive (GitHub)
-    * **Link:** https://archive.org/details/github
-    * **Description:** This dataset contains a massive archive of GitHub repositories, including code, documentation, and issue tracking information. It can be used to train AI models for code generation, testing, and debugging.
-* **Dataset:** OpenStack Codebase (GitHub)
-    * **Link:** https://github.com/openstack
-    * **Description:** This dataset contains the source code for OpenStack, a cloud computing platform. It can be used to train AI models for code analysis and vulnerability detection.
-* **Article:** "AI in Software Development: The Future of Coding" - This article explores the role of AI in software development, including code generation, testing, and debugging.
-    * **Link:** https://www.infoworld.com/article/3624871/ai-in-software-development-the-future-of-coding.html
+* **Datasets:**
+    * **Meeting Transcripts:**  Use datasets of meeting transcripts to train models for meeting summarization, topic extraction, and action item identification.
+* **Models:**
+    * **Natural Language Processing (NLP) Models:** Explore models like BERT or GPT-3 for meeting transcription, summarization, and sentiment analysis.
+    * **Speech Recognition Models:** Use speech recognition models to transcribe meetings and generate meeting notes.
+* **Resources:**
+    * **Cisco Webex:** [https://www.webex.com/](https://www.webex.com/) - Cisco's Webex platform offers AI-powered meeting features like transcription, summarization, and noise reduction.
+    * **Meeting Management Tools:** Research meeting management tools that integrate with AI assistants for scheduling, reminders, and task management.
 
-**5. GenAI for Content Creation and Personalization:**
+**5. AI-Powered Content Creation and Knowledge Management:**
 
-* **Dataset:** The Pile (HuggingFace)
-    * **Link:** https://huggingface.co/datasets/the-pile
-    * **Description:** This dataset is a massive collection of text and code from various sources, including books, articles, code repositories, and websites. It can be used to train generative AI models for content creation and personalization.
-* **Dataset:** GPT-3 (OpenAI)
-    * **Link:** https://openai.com/blog/gpt-3/
-    * **Description:** GPT-3 is a powerful language model that can generate realistic and coherent text. It can be used to create a wide range of content, including articles, stories, and even code.
-* **Article:** "Generative AI: The Next Frontier in Content Creation" - This article discusses the potential of generative AI for content creation and personalization.
-    * **Link:** https://www.forbes.com/sites/bernardmarr/2022/08/24/generative-ai-the-next-frontier-in-content-creation/
-
-**6. AI-Powered Talent Management & Recruitment:**
-
-* **Dataset:** Stack Overflow Developer Survey (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/stackoverflow/stack-overflow-developer-survey-2022
-    * **Description:** This dataset contains information about developers, including their skills, experience, and career aspirations. It can be used to train AI models for talent recruitment and development.
-* **Dataset:** LinkedIn Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/arjunprasad/linkedin-dataset
-    * **Description:** This dataset includes data about LinkedIn users, such as their profiles, connections, and job history. It can be used to analyze talent trends and identify potential candidates for recruitment.
-* **Article:** "AI in HR: Transforming Talent Management and Recruitment" - This article explores the role of AI in talent management and recruitment, including automated screening, candidate matching, and performance analysis.
-    * **Link:** https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-hr.aspx
-
-**7. AI-Enabled Cybersecurity:**
-
-* **Dataset:** CICIDS 2017 (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/ucalyptus/intrusion-detection-dataset
-    * **Description:** This dataset contains network traffic data that includes both normal and malicious activities. It can be used to train AI models for intrusion detection and prevention.
-* **Dataset:** ISCXIDS 2012 (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/ucalyptus/iscxids-2012
-    * **Description:** This dataset includes network traffic data from a university network, including both normal and malicious activities. It can be used to train AI models for network security analysis.
-* **Article:** "AI in Cybersecurity: The Future of Threat Detection and Response" - This article discusses the role of AI in cybersecurity, including threat detection, incident response, and vulnerability management.
-    * **Link:** https://www.wired.com/story/ai-cybersecurity-future-threat-detection-response/
-
-**8. AI-Driven Sustainability Initiatives:**
-
-* **Dataset:** Global Power Plant Database (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/imdevskp/global-power-plant-database
-    * **Description:** This dataset contains information about power plants worldwide, including their location, capacity, and fuel type. It can be used to analyze energy consumption patterns and develop AI models for optimizing energy efficiency.
-* **Dataset:** Climate Change Dataset (Kaggle)
-    * **Link:** https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
-    * **Description:** This dataset includes data related to climate change, such as temperature, precipitation, and sea level. It can be used to train AI models for climate change prediction and mitigation.
-* **Article:** "AI for Sustainability: How Technology Can Help Save the Planet" - This article explores the potential of AI for addressing sustainability challenges, including energy efficiency, resource management, and climate change mitigation.
-    * **Link:** https://www.weforum.org/agenda/2021/01/ai-sustainability-technology-save-planet/
-
-**9. TCS AI WisdomNext:**
-
-* **Dataset:** TCS AI WisdomNext Platform Documentation (TCS)
-    * **Link:** https://www.tcs.com/ai-wisdomnext
-    * **Description:** This documentation provides information about TCS's AI WisdomNext platform, including its capabilities, features, and use cases. It can be used to understand the platform's potential for GenAI adoption.
-* **Dataset:** TCS AI WisdomNext Case Studies (TCS)
-    * **Link:** https://www.tcs.com/ai-wisdomnext/case-studies
-    * **Description:** TCS provides case studies showcasing the successful implementation of AI WisdomNext for various clients. These case studies can provide insights into the platform's capabilities and impact.
-* **Article:** "TCS AI WisdomNext: Simplifying GenAI Adoption for Businesses" - This article discusses TCS's AI WisdomNext platform and its role in accelerating GenAI adoption for clients.
-    * **Link:** https://www.tcs.com/blogs/ai-wisdomnext-simplifying-genai-adoption-for-businesses
+* **Datasets:**
+    * **Technical Documentation:** Collect datasets of technical documentation, product manuals, and knowledge base articles to train models for content generation and knowledge retrieval.
+* **Models:**
+    * **Generative Pre-trained Transformer (GPT) Models:** Use GPT models like GPT-3 for generating technical documentation, blog posts, and other content.
+    * **Knowledge Graph Models:** Explore knowledge graph models for organizing and retrieving information from technical documents.
+* **Resources:**
+    * **Cisco Documentation:** [https://www.cisco.com/c/en/us/support/documentation.html](https://www.cisco.com/c/en/us/support/documentation.html) -  Cisco's official documentation can be used as a source for training content generation models.
+    * **Knowledge Management Systems:** Research knowledge management systems that integrate with AI for content creation, search, and retrieval. 
+ official documentation can be used as a source for training content generation models.
+    * **Knowledge Management Systems:** Research knowledge management systems that integrate with AI for content creation, search, and retrieval.
